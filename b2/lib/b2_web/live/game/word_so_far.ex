@@ -2,12 +2,12 @@ defmodule B2Web.Live.Game.WordSoFar do
   use B2Web, :live_component
 
   @states %{
-    already_used: "You alrerady picked that letter",
+    already_used: "You already picked that letter",
     bad_guess: "That's not in the word",
     good_guess: "Good guess!",
     initializing: "Type or click on your first guess",
     lost: "Sorry, you lost ...",
-    won: "you won!"
+    won: "You won!"
   }
 
   def mount(socket) do
